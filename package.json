@@ -1,0 +1,16 @@
+{
+  "name": "tapp",
+  "version": "0.0.1",
+  "description": "task tracking app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev:watch": "npx electronmon --trace-warnings ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^30.0.6"
+  }
+}
